@@ -54,8 +54,8 @@ if __name__ == '__main__':
     
     # main 이미지 -> 매대 사진
     # target 이미지 -> 제품 사진
-    main_path = './data/main03.jpg'
-    target_path = './data/target03.jpg'
+    main_path = './data/main05.jpg'
+    target_path = './data/target05.jpg'
     
     main = cv2.imread(main_path, cv2.IMREAD_GRAYSCALE)
     target = cv2.imread(target_path, cv2.IMREAD_GRAYSCALE)
